@@ -25,13 +25,13 @@ git revert --continue
 git revert --abort	
 
 --PUSH
-git remote add <name> <url>
-git push <name> master
+git remote add <name> <url>	//remote
+git push <name> master		//day len github
 
 --CLONE
-git clone <url>
-git commit -am "clone"
-git push
+git clone <url>		//tai ve thu muc gitbashhere
+git commit -am "clone"	//update
+git push			//update
 
 
 --GENERAL
