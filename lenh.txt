@@ -11,14 +11,15 @@ git config --global user.email = ""
 
 --INIT
 git init
-git status		//check file untracked
+git status		//check changed file da duoc add vao stage hay chua
+git diff		//check su khac nhau
 
 git add . || git add *	//add toan bo file
 git add <filename>		//add 1 file
 //khi 1 file thay doi noi dung, file nay can add lai de co the tim thay
 
 --COMMIT
-git commit -m "commit to local repository"	//-m la matrix
+git commit -m "commit to local repository"	//-m la message
 git commit -a -m || -am "commit"		// -a thay cho git add .
 
 git log
@@ -34,6 +35,9 @@ git push <name> master		//day len github
 git clone <url>		//tai ve thu muc gitbashhere
 git commit -am "clone"	//update
 git push			 //update
+
+--COLLABORATORS
+
 
 
 --GENERAL
