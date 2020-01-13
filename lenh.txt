@@ -1,3 +1,4 @@
+--CONFIG
 git config
 git config --help || git help config
 git config --global user.name = ""
@@ -6,6 +7,7 @@ git config --global user.email = ""
 ->thu muc project
 ->test.txt
 
+--INIT
 git init
 git status		//check file untracked
 
@@ -13,8 +15,24 @@ git add . || git add *	//add toan bo file
 git add <filename>		//add 1 file
 //khi 1 file thay doi noi dung, file nay can add lai de co the tim thay
 
+--COMMIT
 git commit -m "commit to local repository"	//-m la matrix
 git commit -a -m || -am "commit"		// -a thay cho git add .
 
 git log
-git revert <id>
+git revert <id>	//chi khi da up len github
+git revert --continue
+git revert --abort	
+
+--PUSH
+git remote add <name> <url>
+git push <name>
+
+
+--GENERAL
+
+git init
+git add .
+git commit -am "commit"
+git remote add <name> <url>
+git push -u <name> master
