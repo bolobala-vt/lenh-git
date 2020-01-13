@@ -26,7 +26,12 @@ git revert --abort
 
 --PUSH
 git remote add <name> <url>
-git push <name>
+git push <name> master
+
+--CLONE
+git clone <url>
+git commit -am "clone"
+git push
 
 
 --GENERAL
