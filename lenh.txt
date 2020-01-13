@@ -1,0 +1,13 @@
+git config
+git config --help || git help config
+git config --global user.name = ""
+git config --global user.email = ""
+
+->thu muc project
+->test.txt
+
+git init
+git status		//check
+
+git add . || git add *
+git add <filename>
