@@ -1,3 +1,5 @@
+edited by mr.a
+
 --CONFIG
 git config
 git config --help || git help config
@@ -31,7 +33,7 @@ git push <name> master		//day len github
 --CLONE
 git clone <url>		//tai ve thu muc gitbashhere
 git commit -am "clone"	//update
-git push			//update
+git push			 //update
 
 
 --GENERAL
