@@ -7,7 +7,11 @@ git config --global user.email = ""
 ->test.txt
 
 git init
-git status		//check
+git status		//check file untracked
 
-git add . || git add *
-git add <filename>
+git add . || git add *	//add toan bo file
+git add <filename>		//add 1 file
+//khi 1 file thay doi noi dung, file nay can add lai de co the tim thay
+
+git commit -m "commit to local repository"	//-m la matrix
+git commit -a -m "commit"			// -a thay cho git add .
