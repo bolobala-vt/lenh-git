@@ -1,3 +1,5 @@
+change
+
 --CONFIG
 git config
 git config --help || git help config
@@ -17,6 +19,7 @@ git add <filename>		//add 1 file
 
 --COMMIT
 git commit -m "commit to local repository"	//-m la matrix
+<<<<<<< HEAD
 git commit -a -m || -am "commit"		// -a thay cho git add .
 
 git log
@@ -41,3 +44,6 @@ git add .
 git commit -am "commit"
 git remote add <name> <url>
 git push -u <name> master
+=======
+git commit -a -m "commit"			// -a thay cho git add .
+>>>>>>> parent of f35bedd... test revert
