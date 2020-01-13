@@ -14,4 +14,7 @@ git add <filename>		//add 1 file
 //khi 1 file thay doi noi dung, file nay can add lai de co the tim thay
 
 git commit -m "commit to local repository"	//-m la matrix
-git commit -a -m "commit"			// -a thay cho git add .
+git commit -a -m || -am "commit"		// -a thay cho git add .
+
+git log
+git revert <id>
